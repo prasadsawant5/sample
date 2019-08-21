@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp" android:layout_height="300dp"
+    android:background="@drawable/dialog_shape">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:text="@string/tv_activation_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:id="@+id/tv_activation_code"
+            android:textAlignment="center"
+            android:textColor="@color/tv_activation_code"
+            android:textSize="22sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/tv_activation_code"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:id="@+id/et_activation_code"
+            android:background="@drawable/dialog_edittext_background"
+            android:padding="15dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textCursorDrawable="@null" />
+
+    </RelativeLayout>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="215dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginBottom="40dp">
+
+        <Button
+            android:text="@string/btn_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_change"
+            android:background="@drawable/dialog_change_button_background"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="10dp" />
+
+        <Button
+            android:text="@string/btn_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_done"
+            android:background="@drawable/dialog_done_button_background"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10dp" />
+    </TableRow>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#191c1e</color>
+    <color name="colorPrimaryDark">#191c1e</color>
+    <color name="colorAccent">#fdfdfd</color>
+
+    <color name="off_white">#F5F5F5</color>
+    <color name="gray">#c8c8c8</color>
+    <color name="btn_register">#15e6b5</color>
+    <color name="et_hint">#3d3f41</color>
+    <color name="social_media_btn_background">#585C60</color>
+    <color name="forgot_password">#989CA2</color>
+    <color name="btn_change">#C4C6C9</color>
+    <color name="tv_activation_code">#3a4654</color>
+    <color name="et_custom_dialog">#8793A1</color>
+    <color name="toolbar_background">#2e323a</color>
+    <color name="toolbar_border">#383E43</color>
+    <color name="tv_today">#707378</color>
+    <color name="list_background">#23262c</color>
+    <color name="list_border">#282E32</color>
+</resources>

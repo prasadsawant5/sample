@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.TutorialOneFragment"
+    android:background="@android:color/transparent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tutorial_bluetooth"
+            android:id="@+id/iv_bluetooth"
+            android:layout_alignBottom="@+id/iv_device_icon"
+            android:layout_toRightOf="@+id/iv_device_icon"
+            android:layout_toEndOf="@+id/iv_device_icon"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:text="@string/tv_tutorial_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tutorial_battery"
+            android:id="@+id/iv_device_icon"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</FrameLayout>

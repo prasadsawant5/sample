@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="@drawable/row_background">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/list_battery"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/iv_device_icon"
+            android:paddingRight="15dp"
+            android:padding="15dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/list_arrow"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/iv_arrow"
+            android:padding="15dp" />
+
+        <TextView
+            android:text="@string/tv_battery_percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_arrow"
+            android:layout_toStartOf="@+id/iv_arrow"
+            android:id="@+id/tv_battery_percentage"
+            android:textColor="@color/tv_today" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/list_bluetooth"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_battery_percentage"
+            android:layout_toStartOf="@+id/tv_battery_percentage"
+            android:id="@+id/iv_bluetooth"
+            android:padding="15dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/iv_device_icon"
+            android:layout_toEndOf="@+id/iv_device_icon">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_device_name"
+                android:layout_weight="1"
+                android:layout_alignBottom="@+id/iv_device_icon"
+                android:layout_toRightOf="@+id/iv_device_icon"
+                android:layout_toEndOf="@+id/iv_device_icon"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_device_state"
+                android:layout_weight="1"
+                android:text="@string/tv_device_state"
+                android:textSize="14sp"
+                android:textColor="@color/tv_today" />
+
+        </LinearLayout>
+
+</RelativeLayout>

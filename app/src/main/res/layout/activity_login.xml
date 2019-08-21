@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="solaps.com.chargebot.LoginActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:text="@string/tv_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/tv_forgot_password"
+        android:typeface="normal"
+        android:textColor="@color/forgot_password" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/twitter"
+        android:layout_below="@+id/tv_connect_with"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/ib_twitter"
+        android:background="@drawable/button_circular_background" />
+
+    <TextView
+        android:text="@string/tv_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ib_twitter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tv_or"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/facebook"
+        android:id="@+id/ib_facebook"
+        android:background="@drawable/button_circular_background"
+        android:layout_alignTop="@+id/ib_twitter"
+        android:layout_toLeftOf="@+id/ib_twitter"
+        android:layout_toStartOf="@+id/ib_twitter"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/google"
+        android:id="@+id/ib_google"
+        android:background="@drawable/button_circular_background"
+        android:layout_alignTop="@+id/ib_twitter"
+        android:layout_toRightOf="@+id/ib_twitter"
+        android:layout_toEndOf="@+id/ib_twitter"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/et_email_phone"
+        android:background="@drawable/edittext_background"
+        android:padding="15dp"
+        android:textColorHint="@color/et_hint"
+        android:hint="@string/et_email_phone"
+        android:focusable="false"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/et_email_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/et_password"
+        android:background="@drawable/edittext_background"
+        android:padding="15dp"
+        android:textColorHint="@color/et_hint"
+        android:hint="@string/et_password"
+        android:focusable="false"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="@string/tv_connect_with"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="101dp"
+        android:id="@+id/tv_connect_with"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_login"
+        android:layout_below="@+id/et_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/button_background" />
+</RelativeLayout>

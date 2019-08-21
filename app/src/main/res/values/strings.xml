@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">ChargeBot</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="welcome">Welcome</string>
+    <string name="os">Android</string>
+
+
+    <!-- TextView -->
+    <string name="tv_forgot_password"><u>Forgot Password?</u></string>
+    <string name="tv_connect_with">Connect with</string>
+    <string name="tv_or">or</string>
+    <string name="tv_tutorial_one">Loren ipsum</string>
+    <string name="tv_tutorial_two">Loren ipsum</string>
+    <string name="tv_activation_code">Plase enter the activation code sent you by sms.</string>
+    <string name="tv_today">Today</string>
+    <string name="tv_profile">Profile</string>
+    <string name="tv_xp">EXPERIENCE</string>
+    <string name="tv_level">LEVEL</string>
+    <string name="tv_battery_percentage">100%</string>
+    <string name="tv_device_state">Registered</string>
+
+    <!-- Button -->
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_get_started">GET STARTED</string>
+    <string name="btn_done">DONE</string>
+    <string name="btn_change">CHANGE</string>
+
+    <!-- EditText -->
+    <string name="et_full_name">Full Name</string>
+    <string name="et_email">E-Mail</string>
+    <string name="et_password">Password</string>
+    <string name="et_phone">Phone number</string>
+    <string name="et_country_code">+1</string>
+    <string name="et_email_phone">E-mail or Phone Number</string>
+
+    <!-- Toast -->
+    <string name="toast_no_internet">No internet connection found.</string>
+
+
+    <!-- Fonts -->
+    <string name="font_lato_black">fonts/Lato-Black.ttf</string>
+    <string name="font_lato_black_italic">fonts/Lato-BlackItalic.ttf</string>
+    <string name="font_lato_bold">fonts/Lato-Bold.ttf</string>
+    <string name="font_lato_bold_italic">fonts/Lato-BoldItalic.ttf</string>
+    <string name="font_lato_hardline">fonts/Lato-Hardline.ttf</string>
+    <string name="font_lato_hardline_italic">fonts/Lato-HardlineItalic.ttf</string>
+    <string name="font_lato_italic">fonts/Lato-Italic.ttf</string>
+    <string name="font_lato_light">fonts/Lato-Light.ttf</string>
+    <string name="font_lato_light_italic">fonts/Lato-LightItalic.ttf</string>
+    <string name="font_lato_regular">fonts/Lato-Regular.ttf</string>
+    <string name="title_activity_register">Register Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="devices">
+        <item>Device # 1</item>
+        <item>Device # 2</item>
+        <item>Device # 3</item>
+        <item>Device # 4</item>
+        <item>Device # 5</item>
+        <item>Device # 6</item>
+        <item>Device # 7</item>
+        <item>Device # 8</item>
+        <item>Device # 9</item>
+        <item>Device # 10</item>
+    </string-array>
+</resources>
